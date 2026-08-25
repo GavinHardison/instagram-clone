@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.viewport {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 254px;
+    padding: 0px;
+}
+
+.icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 34px;
+}
+
+header {
+    padding: 0 16px 10px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 14px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.normal {
+    font-size: 26px;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 24px;
+}
+
+.post-interactions {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.post-button {
+    height: 40px;
+    width: 40px;
+}
+
+.divider {
+    height: 50px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.post-button:hover {
+    height: 45px;
+    width: 45px;
+}
